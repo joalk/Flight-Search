@@ -4,13 +4,14 @@
     "sessionId": "0123456789",
     "memberId": "0123456",
     "currencyCode": "USD",
+    "vaccinationRequired": true,
     "airport": [
       {
         "city": "Los Angeles",
         "cityId": "12345",
         "code": "LAX",
         "country": "US",
-        "logitude": 12345678,
+        "longitude": 12345678,
         "latitude": "12345678",
         "name": "Los Angeles Intl Airport",
         "state": "CA",
@@ -21,7 +22,7 @@
         "cityId": "12345",
         "code": "ATL",
         "country": "US",
-        "logitude": 12345678,
+        "longitude": 12345678,
         "latitude": "12345678",
         "name": "Hartsfield-Jackson Atlanta Intl Airport",
         "state": "GA",
@@ -32,7 +33,7 @@
         "cityId": "12345",
         "code": "PHX",
         "country": "US",
-        "logitude": 12345678,
+        "longitude": 12345678,
         "latitude": "12345678",
         "name": "Phoenix Sky Harbor Intl Airport",
         "state": "AZ",
@@ -48,23 +49,28 @@
         "departure": "LAX",
         "departure_date": "2021-04-01",
         "departure_time": "06:25",
-        "duration": 275,
+        "duration": 330,
         "equipment": "738",
         "number": "1431",
-        "totalFare": {"basic":null,"main":348.00,"comfort":null,"first":968.40},
+        "totalFare": {
+          "basic": null,
+          "main": 348.00,
+          "comfort": null,
+          "first": 968.40
+        },
         "layoverAirport": null,
         "numberOfStops": 0,
-        "numberOfSeats": {"basic":2,"main":10,"comfort":0,"first":1},
+        "numberOfSeats": {
+          "basic": 2,
+          "main": 10,
+          "comfort": 0,
+          "first": 1
+        },
         "flight_info": {
           "amenities": {
             "wifi": {
               "exists": true,
               "paid": true
-            },
-            "layout": {
-              "row_layout": "3_3",
-              "type": "forward",
-              "quality": "standard"
             },
             "power": {
               "exists": true,
@@ -90,16 +96,36 @@
               "alcoholic_paid": true,
               "nonalcoholic_paid": false,
               "exists": true
-            }
+            },
+            "seat": [
+              {
+                "width_description": "basic",
+                "width": 45,
+                "pitch": 76,
+                "type": "standard_legroom"
+              },
+              {
+                "width_description": "main",
+                "width": 45,
+                "pitch": 76,
+                "type": "standard_legroom"
+              },
+              {
+                "width_description": "comfort",
+                "width": 47,
+                "pitch": 78,
+                "type": "comfort_legroom"
+              },
+              {
+                "width_description": "first",
+                "width": 55,
+                "pitch": 80,
+                "type": "extra_legroom"
+              }
+            ]
           },
-          "seat": {
-            "width_description": "standard",
-            "width": 45,
-            "pitch": 76,
-            "type": "standard_legroom"
-          }
-        },
-        "alliance": []
+          "alliance": []
+        }
       },
       {
         "aircraft": "Boeing 737-900",
@@ -109,13 +135,23 @@
         "departure": "LAX",
         "departure_date": "2021-04-01",
         "departure_time": "06:25",
-        "duration": 275,
+        "duration": 330,
         "equipment": "739",
         "number": "1431",
-        "totalFare": {"basic":null,"main":348.00,"comfort":null,"first":968.40},
+        "totalFare": {
+          "basic": null,
+          "main": 348.00,
+          "comfort": null,
+          "first": 968.40
+        },
         "layoverAirport": null,
         "numberOfStops": 0,
-        "numberOfSeats": {"basic":2,"main":10,"comfort":0,"first":1},
+        "numberOfSeats": {
+          "basic": 2,
+          "main": 10,
+          "comfort": 0,
+          "first": 1
+        },
         "flight_info": {
           "amenities": {
             "wifi": {
@@ -153,12 +189,32 @@
               "exists": true
             }
           },
-          "seat": {
-            "width_description": "standard",
-            "width": 45,
-            "pitch": 76,
-            "type": "standard_legroom"
-          }
+          "seat": [
+            {
+              "width_description": "basic",
+              "width": 45,
+              "pitch": 76,
+              "type": "standard_legroom"
+            },
+            {
+              "width_description": "main",
+              "width": 45,
+              "pitch": 76,
+              "type": "standard_legroom"
+            },
+            {
+              "width_description": "comfort",
+              "width": 47,
+              "pitch": 78,
+              "type": "comfort_legroom"
+            },
+            {
+              "width_description": "first",
+              "width": 55,
+              "pitch": 80,
+              "type": "extra_legroom"
+            }
+          ]
         },
         "alliance": []
       },
@@ -173,10 +229,15 @@
         "departure": "LAX",
         "departure_date": "2021-04-01",
         "departure_time": "06:25",
-        "duration": 275,
+        "duration": 450,
         "equipment": "739",
         "number": "1431",
-        "totalFare": {"basic":null,"main":348.00,"comfort":null,"first":968.40},
+        "totalFare": {
+          "basic": null,
+          "main": 348.00,
+          "comfort": null,
+          "first": 968.40
+        },
         "layoverAirport": [
           {
             "city": "Pheonix",
@@ -185,11 +246,16 @@
             "arrival_time": "01:27",
             "departure_date": "2021-04-01",
             "departure_time": "06:25",
-            "duration": 275
+            "duration": 120
           }
         ],
         "numberOfStops": 1,
-        "numberOfSeats": {"basic":2,"main":10,"comfort":0,"first":1},
+        "numberOfSeats": {
+          "basic": 2,
+          "main": 10,
+          "comfort": 0,
+          "first": 1
+        },
         "flight_info": {
           "amenities": {
             "wifi": {
@@ -227,12 +293,32 @@
               "exists": true
             }
           },
-          "seat": {
-            "width_description": "standard",
-            "width": 45,
-            "pitch": 76,
-            "type": "standard_legroom"
-          }
+          "seat": [
+            {
+              "width_description": "basic",
+              "width": 45,
+              "pitch": 76,
+              "type": "standard_legroom"
+            },
+            {
+              "width_description": "main",
+              "width": 45,
+              "pitch": 76,
+              "type": "standard_legroom"
+            },
+            {
+              "width_description": "comfort",
+              "width": 47,
+              "pitch": 78,
+              "type": "comfort_legroom"
+            },
+            {
+              "width_description": "first",
+              "width": 55,
+              "pitch": 80,
+              "type": "extra_legroom"
+            }
+          ]
         },
         "alliance": [
           {
