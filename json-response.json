@@ -1,0 +1,279 @@
+{
+  "success": true,
+  "airSearchRsp": {
+    "sessionId": "0123456789",
+    "memberId": "0123456",
+    "currencyCode": "USD",
+    "airport": [
+      {
+        "city": "Los Angeles",
+        "cityId": "12345",
+        "code": "LAX",
+        "country": "US",
+        "logitude": 12345678,
+        "latitude": "12345678",
+        "name": "Los Angeles Intl Airport",
+        "state": "CA",
+        "GMT": "-8.00"
+      },
+      {
+        "city": "Atlanta",
+        "cityId": "12345",
+        "code": "ATL",
+        "country": "US",
+        "logitude": 12345678,
+        "latitude": "12345678",
+        "name": "Hartsfield-Jackson Atlanta Intl Airport",
+        "state": "GA",
+        "GMT": "-5.00"
+      },
+      {
+        "city": "Pheonix",
+        "cityId": "12345",
+        "code": "PHX",
+        "country": "US",
+        "logitude": 12345678,
+        "latitude": "12345678",
+        "name": "Phoenix Sky Harbor Intl Airport",
+        "state": "AZ",
+        "GMT": "-4.00"
+      }
+    ],
+    "flight": [
+      {
+        "aircraft": "Boeing 737-800",
+        "arrival": "ATL",
+        "arrival_date": "2021-04-01",
+        "arrival_time": "01:27",
+        "departure": "LAX",
+        "departure_date": "2021-04-01",
+        "departure_time": "06:25",
+        "duration": 275,
+        "equipment": "738",
+        "number": "1431",
+        "totalFare": {"basic":null,"main":348.00,"comfort":null,"first":968.40},
+        "layoverAirport": null,
+        "numberOfStops": 0,
+        "numberOfSeats": {"basic":2,"main":10,"comfort":0,"first":1},
+        "flight_info": {
+          "amenities": {
+            "wifi": {
+              "exists": true,
+              "paid": true
+            },
+            "layout": {
+              "row_layout": "3_3",
+              "type": "forward",
+              "quality": "standard"
+            },
+            "power": {
+              "exists": true,
+              "paid": false,
+              "type": "power",
+              "summary": "free_power"
+            },
+            "food": {
+              "exists": true,
+              "paid": false,
+              "type": "meal",
+              "summary": "free_meal"
+            },
+            "entertainment": {
+              "exists": true,
+              "paid": false,
+              "type": "streaming",
+              "summary": "free_streaming"
+            },
+            "beverage": {
+              "type": "alcoholic_and_nonalcoholic",
+              "quality": "standard",
+              "alcoholic_paid": true,
+              "nonalcoholic_paid": false,
+              "exists": true
+            }
+          },
+          "seat": {
+            "width_description": "standard",
+            "width": 45,
+            "pitch": 76,
+            "type": "standard_legroom"
+          }
+        },
+        "alliance": []
+      },
+      {
+        "aircraft": "Boeing 737-900",
+        "arrival": "ATL",
+        "arrival_date": "2021-04-01",
+        "arrival_time": "01:27",
+        "departure": "LAX",
+        "departure_date": "2021-04-01",
+        "departure_time": "06:25",
+        "duration": 275,
+        "equipment": "739",
+        "number": "1431",
+        "totalFare": {"basic":null,"main":348.00,"comfort":null,"first":968.40},
+        "layoverAirport": null,
+        "numberOfStops": 0,
+        "numberOfSeats": {"basic":2,"main":10,"comfort":0,"first":1},
+        "flight_info": {
+          "amenities": {
+            "wifi": {
+              "exists": true,
+              "paid": true
+            },
+            "layout": {
+              "row_layout": "3_3",
+              "type": "forward",
+              "quality": "standard"
+            },
+            "power": {
+              "exists": true,
+              "paid": false,
+              "type": "power",
+              "summary": "free_power"
+            },
+            "food": {
+              "exists": true,
+              "paid": false,
+              "type": "meal",
+              "summary": "free_meal"
+            },
+            "entertainment": {
+              "exists": true,
+              "paid": false,
+              "type": "streaming",
+              "summary": "free_streaming"
+            },
+            "beverage": {
+              "type": "alcoholic_and_nonalcoholic",
+              "quality": "standard",
+              "alcoholic_paid": true,
+              "nonalcoholic_paid": false,
+              "exists": true
+            }
+          },
+          "seat": {
+            "width_description": "standard",
+            "width": 45,
+            "pitch": 76,
+            "type": "standard_legroom"
+          }
+        },
+        "alliance": []
+      },
+      {
+        "aircraft": [
+          "Boeing 737-900",
+          "Boeing 737-900"
+        ],
+        "arrival": "ATL",
+        "arrival_date": "2021-04-01",
+        "arrival_time": "01:27",
+        "departure": "LAX",
+        "departure_date": "2021-04-01",
+        "departure_time": "06:25",
+        "duration": 275,
+        "equipment": "739",
+        "number": "1431",
+        "totalFare": {"basic":null,"main":348.00,"comfort":null,"first":968.40},
+        "layoverAirport": [
+          {
+            "city": "Pheonix",
+            "cityId": "12345",
+            "arrival_date": "2021-04-01",
+            "arrival_time": "01:27",
+            "departure_date": "2021-04-01",
+            "departure_time": "06:25",
+            "duration": 275
+          }
+        ],
+        "numberOfStops": 1,
+        "numberOfSeats": {"basic":2,"main":10,"comfort":0,"first":1},
+        "flight_info": {
+          "amenities": {
+            "wifi": {
+              "exists": true,
+              "paid": true
+            },
+            "layout": {
+              "row_layout": "3_3",
+              "type": "forward",
+              "quality": "standard"
+            },
+            "power": {
+              "exists": true,
+              "paid": false,
+              "type": "power",
+              "summary": "free_power"
+            },
+            "food": {
+              "exists": true,
+              "paid": false,
+              "type": "meal",
+              "summary": "free_meal"
+            },
+            "entertainment": {
+              "exists": true,
+              "paid": false,
+              "type": "streaming",
+              "summary": "free_streaming"
+            },
+            "beverage": {
+              "type": "alcoholic_and_nonalcoholic",
+              "quality": "standard",
+              "alcoholic_paid": true,
+              "nonalcoholic_paid": false,
+              "exists": true
+            }
+          },
+          "seat": {
+            "width_description": "standard",
+            "width": 45,
+            "pitch": 76,
+            "type": "standard_legroom"
+          }
+        },
+        "alliance": [
+          {
+            "code": "AM",
+            "name": "SkyTeam"
+          }
+        ]
+      }
+    ],
+    "baggage": [
+      {
+        "destAirport": "ATL",
+        "origAirport": "LAX",
+        "baggageId": 5
+      },
+      {
+        "destAirport": "PHX",
+        "origAirport": "LAX",
+        "baggageId": 2
+      },
+      {
+        "destAirport": "ATL",
+        "origAirport": "PHX",
+        "baggageId": 7
+      }
+    ],
+    "passportsRequired": false,
+    "cabinRestrictions": [
+      {
+        "lapInfantsAllowed": true
+      }
+    ],
+    "equipment": [
+      {
+        "code": "739",
+        "name": "Boeing 737-900"
+      },
+      {
+        "code": "738",
+        "name": "Boeing 737-800"
+      }
+    ]
+  }
+}
